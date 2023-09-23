@@ -1,0 +1,49 @@
+#back {
+    float: left;
+    padding: 20px;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #131720;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.dice {
+    text-align: center;
+    padding: 50px;
+}
+
+#dice1 {
+    padding: 90px;
+}
+
+#dice2 {
+    padding: 90px;
+}
+
+button {
+    font-size: 64px;
+    border-radius: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    fill: whitesmoke;
+    padding: 25px;
+}
+
+#buttonholder {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

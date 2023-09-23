@@ -1,0 +1,42 @@
+@font-face {
+    font-family: homepage;
+    src:url("./fonts/BebasNeue-Regular.ttf") format("truetype"),
+        url("./fonts/bebasneue-regular-webfont.woff") format("woff"),
+        url("./fonts/bebasneue-regular-webfont.woff2") format("woff2");
+  }
+
+h1 {
+    text-align: center;
+    font-family: homepage;
+    font-size: 90px;
+    padding-top: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #283450;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.topnav {
+    text-align: center;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+

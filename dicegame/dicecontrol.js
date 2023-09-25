@@ -10,9 +10,6 @@ button.addEventListener('click', (e) => {
     randomDiceImage = "./images/dice" + randNumOne + ".png";
     randomDiceImage2 = "./images/dice" + randNumTwo + ".png";
 
-    console.log("Number one is: " + randNumOne)
-    console.log("Number two is: " + randNumTwo)
-
     document.querySelectorAll("img")[0].setAttribute("src", randomDiceImage);
     document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 

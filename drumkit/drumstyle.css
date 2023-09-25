@@ -45,6 +45,11 @@ h1 {
     background-image: url("images/kick.png");
   }
 
+.pressed {
+  box-shadow: 0 6px 8px 0 #C5BD99;
+  opacity: 0.5;;
+}
+
 .drumset {
     margin: 10% auto;
     text-align: center;

@@ -1,13 +1,14 @@
 var numDrumButtons = document.querySelectorAll(".drum").length;
 
 document.addEventListener('keydown', function(event) {
-    console.log(event.key.toUpperCase());
     playSound(event.key.toUpperCase());
+    playAnimation(event.key);
 });
 
 for (i =0; i < numDrumButtons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener('click', function() {
         playSound(this.innerHTML);
+        playAnimation(this.innerHTML.toLowerCase());
     });
 }
 
@@ -41,4 +42,13 @@ function playSound(keyHTML) {
             var kick = new Audio("./sounds/kick-bass.mp3");
             kick.play();
       }
+}
+
+function playAnimation(key) {
+    buttonPressed = document.querySelector("." + key);
+    buttonPressed.classList.add("pressed");
+
+    setTimeout(function () {
+        buttonPressed.classList.remove("pressed");
+    }, 100);
 }

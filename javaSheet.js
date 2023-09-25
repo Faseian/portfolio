@@ -8,3 +8,5 @@ button.addEventListener('click', (e) => {
         alert("Touch some grass");
     }
 })
+
+player.addEventListener()

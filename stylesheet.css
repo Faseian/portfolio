@@ -40,3 +40,8 @@ p {
     justify-content: center;
 }
 
+.player {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}

@@ -5,7 +5,7 @@ document.addEventListener('keydown', function(event) {
     playSound(event.key.toUpperCase());
 });
 
-for (i =0; i <= numDrumButtons; i++) {
+for (i =0; i < numDrumButtons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener('click', function() {
         playSound(this.innerHTML);
     });

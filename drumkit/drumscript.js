@@ -1,9 +1,14 @@
 var numDrumButtons = document.querySelectorAll(".drum").length;
 
+document.addEventListener('keydown', function(event) {
+    console.log(event.key.toUpperCase());
+    playSound(event.key.toUpperCase());
+});
+
 for (i =0; i <= numDrumButtons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener('click', function() {
         playSound(this.innerHTML);
-    })
+    });
 }
 
 function playSound(keyHTML) {
@@ -11,7 +16,7 @@ function playSound(keyHTML) {
         case 'A':
             var tom1 = new Audio("./sounds/tom-1.mp3");
             tom1.play();
-          break;
+            break;
         case 'S':
             var tom2 = new Audio("./sounds/tom-2.mp3");
             tom2.play();

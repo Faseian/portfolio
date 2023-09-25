@@ -32,7 +32,13 @@ p {
 }
 
 .topnav {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px auto;
+}
+
+.projectlink {
+    padding: 10px 10px;
 }
 
 .center-button {

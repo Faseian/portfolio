@@ -1,4 +1,7 @@
 var count = 0;
+var playerXPos = parseInt(document.getElementById("player").offsetLeft);
+console.log(playerXPos);
+
 
 button.addEventListener('click', (e) => {
     count++;

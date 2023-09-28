@@ -45,7 +45,7 @@ function playSound(keyHTML) {
 }
 
 function playAnimation(key) {
-    buttonPressed = document.querySelector("." + key);
+    buttonPressed = $("." + key);
     buttonPressed.classList.add("pressed");
 
     setTimeout(function () {

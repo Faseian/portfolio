@@ -47,6 +47,7 @@ p {
 }
 
 .player {
+    position: relative;
     height: 50px;
     width: 50px;
     background-color: red;

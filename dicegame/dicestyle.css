@@ -29,10 +29,14 @@ h2 {
 
 #dice1 {
     padding: 90px;
+    height: 150px;
+    width: 150px;
 }
 
 #dice2 {
     padding: 90px;
+    height: 150px;
+    width: 150px;
 }
 
 button {

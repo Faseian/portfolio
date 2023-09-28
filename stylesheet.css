@@ -46,6 +46,11 @@ p {
     justify-content: center;
 }
 
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
 .player {
     position: relative;
     height: 50px;

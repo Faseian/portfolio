@@ -1,7 +1,6 @@
 var count = 0;
-var playerXPos = parseInt(document.getElementById("player").offsetLeft);
+var playerXPos = parseInt($("#player").offsetLeft);
 console.log(playerXPos);
-
 
 button.addEventListener('click', (e) => {
     count++;
@@ -12,9 +11,13 @@ button.addEventListener('click', (e) => {
     }
 })
 
-document.addEventListener('keydown', function(e) {
-    movement(e.key);
-});
+$(document).keydown(function(event) {
+    movement(event.key);
+})
+
+//document.addEventListener('keydown', function(e) {
+//    movement(e.key);
+//});
 
 function movement(key) {
     switch(key) {

@@ -5,8 +5,10 @@ document.addEventListener('keydown', function(event) {
     playAnimation(event.key);
 });
 
+
+
 for (i =0; i < numDrumButtons; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener('click', function() {
+        document.querySelectorAll(".drum")[i].addEventListener('click', function() {
         playSound(this.innerHTML);
         playAnimation(this.innerHTML.toLowerCase());
     });
